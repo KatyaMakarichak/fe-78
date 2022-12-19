@@ -6,13 +6,8 @@
 }
 
 body {
-    
-<<<<<<< Updated upstream
-    font-family: "Open Sans", sans-serif;
-=======
-    font-family:"Open Sans", sans-serif;
->>>>>>> Stashed changes
-    color:aqua
+font-family:"Open Sans", sans-serif;
+color:aqua
 
 }
 .list {
