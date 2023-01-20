@@ -122,10 +122,11 @@ color:var(--first-title-color)
     color: #FFFFFF; 
     cursor: pointer;   
     background-color: #4D5AE5;
-
 }
 
-
+.hero-btn:hover {
+    background: #404BBF;
+}
 
 
     /*----------- ABOUT------------ */
@@ -240,4 +241,55 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: #E7E9FC;
+}
+
+/* --------PORTFOLIO---------- */
+
+.btn {
+    background: #F4F4FD;
+}
+
+.btn:hover,
+.btn:focus {
+    background:  #404BBF;
+    color: #FFFFFF
+
+}
+    .btn {
+        font-family: ‘Roboto’, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color:#4D5AE5;
+    cursor: pointer;
+    background-color: #F4F4FD;
+}
+
+.mobile-list {
+    list-style: none
+}
+.mobile-item {
+    list-style: none;
+}
+
+.mobile-after-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.people-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
