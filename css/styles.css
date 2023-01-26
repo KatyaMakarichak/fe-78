@@ -15,6 +15,15 @@ ul,ol{
     margin: 0;
     padding-left: 0;
 }
+.img{
+    display: block;
+}
+.p{
+ color: #434455;   
+}
+.a{
+    color: #434455;
+}
 
 
 
@@ -138,7 +147,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 margin-right: 40px;
+margin: auto;
 color:var(--second-title-color)
+
 
 
 
@@ -148,6 +159,8 @@ color:var(--second-title-color)
 
 .hero {
     background-color: #2E2F42;
+    padding-bottom: 188px;
+    padding-top: 188px;
 }
 
 .hero-title {
@@ -158,8 +171,6 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 margin-bottom: 48px;
-padding-top: 192px;
-padding-bottom: 192px;
 color:var(--first-title-color)
 }
 .container{
@@ -169,6 +180,8 @@ color:var(--first-title-color)
     outline: none;
     margin: 0 auto;
 }
+
+
 
 
 .hero-btn {
@@ -186,6 +199,8 @@ color:var(--first-title-color)
     cursor: pointer;   
     background-color: #4D5AE5;
     border-radius: 4px;
+    display: block;
+    margin: 0 auto;
     
     
     
@@ -270,6 +285,18 @@ color:var(--second-title-color)
 
 }
 .mobile-list {
+    gap: 24px;
+    display: flex;
+    list-style: none;
+}
+.mobile-item {
+    margin-bottom: 72px;
+    margin-bottom: 24px;
+    padding-bottom: 120px;
+    
+}
+.mobile-item{
+    
 }
 .list {
 }
@@ -307,6 +334,7 @@ color:var(--second-title-color)
     padding-bottom: 24px;
     margin-top: 72px;
     width: calc((100%-72px)/4);
+    
 
     
 } 
@@ -318,20 +346,26 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 margin-top: 32px;
+margin-bottom: 8px;
+display: flex;
 color:var(--second-title-color)
+
+
 }
-.logo {
+.logo-end {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
+line-height: 1.1;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
-padding-top: 100px;
-margin-top: 16px;
+
+
+
+
 
 
 }
@@ -340,6 +374,8 @@ margin-top: 16px;
     background: #2E2F42;
 }
 .end{
+    padding-top: 120px;
+    display: flex;
     
 }
 
@@ -355,6 +391,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-top: 8px;
 margin-bottom: 120px;
+display: flex;
 color:var(--third-title-color)
 }
 .end-text {
@@ -395,6 +432,14 @@ max-width: 264px;
 .value {
     list-style: none;
     padding-top: 108px;
+    min-width: 116px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    padding-top: 96px;
+    gap: 24px;
 }
 
     .btn {
@@ -416,11 +461,17 @@ max-width: 264px;
 .mobile-list {
     list-style: none;
     padding-bottom: 120px;
+    display: flex;
 }
 .mobile-item {
     list-style: none;
-    padding-top: 82px;
+    
+    
 
+}
+.mobile-item{
+
+    
 }
 
 .mobile-after-title {
