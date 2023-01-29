@@ -50,6 +50,8 @@ color: #2E2F42;;
     padding-bottom: 24px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #E7E9FC;
+    
     
 }
 .container{
@@ -73,7 +75,7 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
-margin-right: 76px;
+margin-right: 77px;
 
 
 
@@ -102,15 +104,15 @@ color: #2E2F42;
     display: flex;
     align-items: center;
     margin-right: auto;
+    margin-left: 76px;
 }
 .text-logo {
 }
 .header-list {
     display: flex;
     align-items: center;
-    margin-right: auto;
     gap: 40px;
-    margin-left: 76px;
+
 
 }
 
@@ -123,6 +125,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 display: flex;
 align-items: center;
+margin-right: 40px;
 color:var(--second-title-color)
 
 }
@@ -150,9 +153,8 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-right: 40px;
-margin: auto;
 color:var(--second-title-color)
+
 
 
 
@@ -259,10 +261,20 @@ margin-bottom: 8px;
 color:var(--second-title-color)
 
 }
-.about-item{
+
+.about-item {
     margin-right: 24px;
-    
+    box-sizing: border-box;
 }
+
+.about-first {
+    margin-right: 24px;
+}
+
+.about-second {
+    margin-right: 24px;
+}
+
 .about-text{
 font-family: 'Roboto', sans-serif;
 font-weight: 400;
@@ -301,8 +313,9 @@ color:var(--second-title-color)
 .mobile-item {
     gap: 48px;
     
-
-    
+}
+.img{
+    display: block;
 }
 .mobile-item{
     
@@ -338,15 +351,14 @@ color:var(--second-title-color)
 
 .list {
 }
-.img{
-    display: block;
-}
+
 
 
 .team-item {
     width: calc((100%-72px)/4);
     text-align: center;
     background-color: #FFFFFF;
+    display: block;
     
 
     
@@ -429,6 +441,7 @@ max-width: 264px;
 /* --------PORTFOLIO---------- */
 .portfolio{
     background-color: #FFFFFF;
+    
 }
 .portfolio-btn{
     padding-top: 84px;
@@ -437,6 +450,7 @@ max-width: 264px;
 .header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 .header-navigation{
     display: flex;
@@ -446,6 +460,7 @@ max-width: 264px;
 
 .btn {
     background: #F4F4FD;
+    
 }
 
 .btn:hover,
@@ -472,8 +487,14 @@ max-width: 264px;
     gap: 24px;
     border: none;
     margin-bottom: 72px;
+    
 }
 
+.mobile-item{
+    display: block;
+    max-height: 100% auto;
+    
+}
     .btn {
         font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -485,7 +506,6 @@ max-width: 264px;
     color:#4D5AE5;
     cursor: pointer;
     background-color: #F4F4FD;
-    margin-bottom: 24px;
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 12px;
@@ -507,11 +527,11 @@ max-width: 264px;
     padding: 32px 16px;
     border-top: none;
     
+    
 
 }
 .img{
-    display: block;
-    max-height: 100% auto;
+    
     
 }
 
