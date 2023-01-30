@@ -17,6 +17,8 @@ ul,ol{
 }
 .img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 .p{
  color: #434455;   
@@ -51,6 +53,7 @@ color: #2E2F42;;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #E7E9FC;
+    list-style: none;
     
     
 }
@@ -75,7 +78,7 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
-margin-right: 77px;
+
 
 
 
@@ -105,6 +108,7 @@ color: #2E2F42;
     align-items: center;
     margin-right: auto;
     margin-left: 76px;
+    
 }
 .text-logo {
 }
@@ -112,6 +116,9 @@ color: #2E2F42;
     display: flex;
     align-items: center;
     gap: 40px;
+    list-style: none;
+    margin-left: 76px;
+    
 
 
 }
@@ -124,8 +131,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 display: flex;
-align-items: center;
 margin-right: 40px;
+margin-left:auto ;
 color:var(--second-title-color)
 
 }
@@ -136,7 +143,10 @@ color:var(--second-title-color)
 .header-link:focus{
   color: #4D5AE5;
 }
-
+.header-item{
+    margin-left: auto;
+    
+}
   
 
 .header-mail {
@@ -265,15 +275,22 @@ color:var(--second-title-color)
 .about-item {
     margin-right: 24px;
     box-sizing: border-box;
+    width: 264px;
 }
 
 .about-first {
     margin-right: 24px;
+    width: 264px;
 }
 
 .about-second {
     margin-right: 24px;
+    width: 264px;
 }
+.about-third{
+    width: 264px;
+}
+
 
 .about-text{
 font-family: 'Roboto', sans-serif;
@@ -310,6 +327,7 @@ color:var(--second-title-color)
     display: flex;
     list-style: none;
 }
+
 .mobile-item {
     gap: 48px;
     
@@ -385,12 +403,9 @@ line-height: 1.1;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
-
-
-
-
-
-
+}
+.img{
+    display: block;
 }
 .end {
     text-decoration: none;
@@ -441,6 +456,8 @@ max-width: 264px;
 /* --------PORTFOLIO---------- */
 .portfolio{
     background-color: #FFFFFF;
+    padding-top: 72px;
+    padding-bottom:120px ;
     
 }
 .portfolio-btn{
@@ -455,12 +472,30 @@ max-width: 264px;
 .header-navigation{
     display: flex;
     align-items: center;
-    margin-right: auto;
+    margin-left: 76px;
 }
 
 .btn {
     background: #F4F4FD;
     
+}
+.header-link{
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+display: flex;
+margin-right: 40px;
+color:var(--second-title-color)
+
+}
+
+
+
+.header-list{
+    display: flex;
+    align-items: center;
 }
 
 .btn:hover,
@@ -531,7 +566,7 @@ max-width: 264px;
 
 }
 .img{
-    
+    display: block;
     
 }
 
