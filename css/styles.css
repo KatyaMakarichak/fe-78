@@ -132,7 +132,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 display: flex;
 margin-right: 40px;
-margin-left:auto ;
+margin-left: auto;
 color:var(--second-title-color)
 
 }
@@ -145,6 +145,7 @@ color:var(--second-title-color)
 }
 .header-item{
     margin-left: auto;
+
     
 }
   
@@ -468,11 +469,18 @@ max-width: 264px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
+
+    margin: auto;
+    
+    
+}
+.logo{
+    
 }
 .header-navigation{
     display: flex;
     align-items: center;
-    margin-left: 76px;
+    margin-right: auto;
 }
 
 .btn {
@@ -486,7 +494,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 display: flex;
-margin-right: 40px;
+margin: auto;
 color:var(--second-title-color)
 
 }
@@ -496,6 +504,7 @@ color:var(--second-title-color)
 .header-list{
     display: flex;
     align-items: center;
+    
 }
 
 .btn:hover,
@@ -509,6 +518,7 @@ color:var(--second-title-color)
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    outline: none;
 
 }
 .value {
