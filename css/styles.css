@@ -565,7 +565,10 @@ line-height: 1.1;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
+
 }
+
+
 .img{
     display: block;
 }
@@ -616,6 +619,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 color: #FFFFFF;
+margin-top: 16px;
 
 }
 .end-soc-list {
@@ -628,6 +632,7 @@ color: #FFFFFF;
 .end-soc-item {
     width: 40px;
     height: 40px;
+    
 }
 .end-soc-link {
     width: 100%;
@@ -1052,6 +1057,16 @@ color: #757575;
 display: flex;
 
 }
+.privacy-text{
+    font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+margin-left: 5px;
+}
 .send-btn{
     min-width:169px ;
     height: 56px;
@@ -1088,7 +1103,7 @@ display: flex;
     margin-left:80px ;
    padding:10px ;
   outline: none;
-  margin-top: 16px;
+  
   
   
 }
@@ -1112,6 +1127,8 @@ color: rgba(255, 255, 255, 0.6);
     line-height: 24px;
     color: #FFFFFF;
     margin-left: 80px;
+    margin-top: 16px;
+    margin-bottom: 16px;
     
     
 }
