@@ -2,15 +2,62 @@
     .container{
      width: 448px;
     }
+    .header-list {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+        margin-left: 76px;
+      
+        }
+    .header-link {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        display: flex;
+        margin: auto;
+        position: relative;
+        color:var(--second-title-color)
+        }
+        .header-mobile{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            list-style: none;
+        }
+          .header-mail {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        display: none;
+        color:var(--second-title-color)
+        
+        }
+        .header-tel {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin: auto;
+        display: none;
+        color:var(--second-title-color)
+        }
     .customers-item {
      width: calc((100% - 30px) / 2 );
      height: 88px;
      padding-left: 82px;
   }
- }
+ 
 .hero{
     padding: 210px 30px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 
     
       url(../img/Dark-bg-mob.jpg);
+}
 }
