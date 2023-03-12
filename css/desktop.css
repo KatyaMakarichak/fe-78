@@ -1,6 +1,13 @@
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1158px){
     .container{
-     width: 1200px;
+     width: 1158px;
+    }
+    .hero {
+       /* padding: 178px 292px 472px; */
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 
+        
+          url(../img/people-office1.jpg);
+        
     }
     .team{
         /* background-color: #F4F4FD; */

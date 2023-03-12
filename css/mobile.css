@@ -5,5 +5,12 @@
     .customers-item {
      width: calc((100% - 30px) / 2 );
      height: 88px;
+     padding-left: 82px;
   }
  }
+.hero{
+    padding: 210px 30px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 
+    
+      url(../img/Dark-bg-mob.jpg);
+}
