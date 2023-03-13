@@ -1,6 +1,8 @@
 @media screen and (min-width: 1158px){
     .container{
      width: 1158px;
+     padding-left: 15px;
+     padding-right: 15px;
     }
     .hero {
        /* padding: 178px 292px 472px; */
@@ -24,7 +26,20 @@
         background-color: #FFFFFF;
     }
     .customers-item {
-        width: calc((100% - 150px) / 6 );
+        /* width: calc((100% - 150px) / 6 ); */
         height: 88px;
      }
+     .about-list{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-first {
+        margin-right: 24px;
+        width: 264px;
+        height: 112px;
+        flex-direction: column;
+        /* background: #F4F4FD; */
+       
+    }
  }

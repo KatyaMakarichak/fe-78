@@ -174,6 +174,7 @@ line-height: 24px;
 letter-spacing: 0.02em;
 transition: color 300ms linear;
 color: #434455;
+margin: auto;
 }
 
 .header-item:focus,
@@ -201,6 +202,7 @@ color: #434455;
     align-items: center;
     gap: 40px;
     list-style: none;
+    margin-left: 332px;
 }
   
 
@@ -235,21 +237,103 @@ color:var(--second-title-color)
     background-color: #FFFFFF;
     padding-top: 48px;
     padding-bottom: 48px;
+    left: 0;
+    
 }
+.mob-menu > .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+}
+.header-link.activ::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #404BBF;;
+    left: 0;
+    bottom: -24px;
+    border-radius: 2px;
+}
+.mob-menu-item{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+margin-bottom: 284px;
+margin-left: 40px;
+list-style: none;
+
+}
+
+.mob-menu-item:focus,
+.mob-menu-item:hover{
+    color: #4D5AE5;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+ letter-spacing: 0.02em;
+    text-transform: capitalize;
+     color: #4D5AE5;
+margin-bottom: 284px;
+margin-left: 40px;
+list-style: none;
+transition: background-color 250ms linear, color 250ms linear ;
+}
+
+
+
+.mob-menu-link:hover,
+.mob-menu-link:focus {
+  color: #4D5AE5;}
+
 .menu-close{
+    right:24px ;
+    top: 24px;
     width: 24px;
     height: 24px;
+    background-color: #E7E9FC;
     border-radius: 50%;
-    background: #E7E9FC;
-opacity: 0.1;
-border: 1px solid #2E2F42;
-display: flex;
-align-items: center;
-justify-content: center;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F4F4FD;
+    transition: background-color 250ms linear, color 250ms linear ;
+    cursor: pointer;
+    border: 1px solid #E7E9FC;
+    margin-bottom: 30px;
+    margin-left: 280px;
 
+}
+.menu-close:hover,
+.menu-close:focus {
+background:  #404BBF;
+color: #FFFFFF}
+
+.menu-close-icon{
+    width: 8px;
+    height: 8px;
+    fill: currentColor;
+   
+}
+.menu-open{
+    margin-left: 140px;
+}
+
+.mob-menu-item{
+    margin-left: 40px;
 }
 .mob-menu-item:not(:last-child){
   margin-bottom: 24px;
+  
 }
 .mob-menu-link{
     font-family: 'Roboto', sans-serif;
@@ -260,6 +344,39 @@ line-height: 40px;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
+margin-left: 40px;
+}
+.mob-soc-list {
+    display: flex;
+    margin-left: 15px;
+    text-align: center;
+    gap: 24px;
+}
+.mob-soc-item {
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 40px;
+}
+.img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+.mob-soc-link {
+    width: 100%;
+    height: 100%;
+    background: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}
+.mob-soc-link:hover,
+.mob-soc-link:focus {
+    background: #404BBF;
 }
 
     /*----------- HERO----------*/
@@ -356,7 +473,7 @@ border-radius: 4px;
     }
     .about-list{
         list-style: none;
-        display: flex;
+        /* display: flex; */
         justify-content: space-between;
     }
 
@@ -380,13 +497,17 @@ color:var(--second-title-color)
     justify-content: center;
     margin-bottom: 8px;
 }
+.photo-link{
+    display: none;
+}
 
 .about-item {
     margin-right: 24px;
     box-sizing: border-box;
     width: 264px;
-    height: 112px;
-    background: #F4F4FD;
+    /* height: 112px; */
+    flex-direction: column;
+    /* background: #F4F4FD; */
     
 }
 
@@ -394,19 +515,21 @@ color:var(--second-title-color)
     margin-right: 24px;
     width: 264px;
     height: 112px;
-    background: #F4F4FD;
+    flex-direction: column;
+    /* background: #F4F4FD; */
 }
 
 .about-second {
     margin-right: 24px;
     width: 264px;
     height: 112px;
-    background: #F4F4FD;
+    flex-direction: column;
+    /* background: #F4F4FD; */
 }
 .about-third{
     width: 264px;
     height: 112px;
-    background: #F4F4FD;
+    /* background: #F4F4FD; */
 }
 
 
