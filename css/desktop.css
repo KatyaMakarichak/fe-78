@@ -1,8 +1,12 @@
 @media screen and (min-width: 1158px){
     .container{
-     width: 1158px;
+     max-width: 1158px;
      padding-left: 15px;
      padding-right: 15px;
+    }
+    .header-mobile{
+        flex-direction: row;
+        margin-left: 121px;
     }
     .hero {
        /* padding: 178px 292px 472px; */
@@ -10,6 +14,9 @@
         
           url(../img/people-office1.jpg);
         
+    }
+    .menu-open{
+        display: none;
     }
     .team{
         /* background-color: #F4F4FD; */
@@ -41,5 +48,8 @@
         flex-direction: column;
         /* background: #F4F4FD; */
        
+    }
+    .footer-container {
+        display: flex;
     }
  }

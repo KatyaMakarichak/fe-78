@@ -1,7 +1,25 @@
 @media screen and (min-width: 768px){
     .container{
-     max-width: 768px;
+     max-width: 1158px;
     }
+    .about-item {
+        font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;}
+  .about-list{
+    list-style: none;
+    /* display: flex; */
+    justify-content: space-between;
+}
+.menu-open{
+    display: none;
+}
+
     .header-list {
         display: flex;
         align-items: center;
@@ -19,6 +37,7 @@
             display: flex;
             justify-content: center;
             margin-bottom: 8px;
+            display: none;
         }
         
     .header-link {
@@ -35,8 +54,9 @@
         .header-mobile{
             display: flex;
             align-items: center;
-            gap: 40px;
+            gap: 12px;
             list-style: none;
+            flex-direction: column;
         }
           .header-mail {
         font-family: 'Roboto', sans-serif;
@@ -59,6 +79,12 @@
         display: block;
         color:var(--second-title-color)
         }
+        .footer-container {
+           flex-wrap: wrap; 
+       
+        }
+      
+        
  
     .hero {
         padding: 112px 204px 136px;
@@ -88,6 +114,18 @@
        
         
     }
+    .about-after-title {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+/* text-align: center; */
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+
+      }
     .costumers {
         padding-top: 84px;
         padding-bottom: 84px;
