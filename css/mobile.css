@@ -1,10 +1,11 @@
 @media screen and (min-width: 480px){
     .container{
-     max-width: 428px;
+     width: 100%;
      padding-left: 16px;
      padding-right: 16px;
      margin-left: auto;
      margin-right: auto;
+     
     }
     .about-item {
       font-family: 'Roboto', sans-serif;
@@ -21,6 +22,11 @@ color: #2E2F42;
       /* padding-top: 120px; */
       text-align: center;
       
+  }
+  .end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
     
     .header-list {
@@ -74,6 +80,19 @@ color: #2E2F42;
           /* display: flex; */
           justify-content: space-between;
       }
+      .about-text,.about-first,
+       .about-second, .about-third{
+    margin-bottom: 72px;
+    width: 100%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+text-align: left;
+      }
       .about-after-title {
         font-family: 'Roboto';
 font-style: normal;
@@ -91,7 +110,12 @@ color: #2E2F42;
      height: 88px;
      padding-left: 82px;
   }
- 
+      .photo-link{
+        display: none;
+      }
+      .online-btn{
+        display: none;
+    }
 .hero{
     padding: 210px 30px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 

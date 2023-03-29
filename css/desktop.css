@@ -1,6 +1,6 @@
 @media screen and (min-width: 1158px){
     .container{
-     max-width: 1158px;
+     /* max-width: 1158px; */
      padding-left: 15px;
      padding-right: 15px;
     }
@@ -27,13 +27,16 @@
         /* width: calc((100% - 72px)/4); */
         
     }
+    .photo-link{
+        display: block;
+    }
     .costumers {
         padding-top: 120px;
         padding-bottom: 120px;
         background-color: #FFFFFF;
     }
     .customers-item {
-        /* width: calc((100% - 150px) / 6 ); */
+        width: calc((100% - 150px) / 6 );
         height: 88px;
      }
      .about-list{
@@ -49,7 +52,20 @@
         /* background: #F4F4FD; */
        
     }
+    .online-btn{
+        display: flex;
+    }
     .footer-container {
         display: flex;
     }
+    .about-after-title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+        color:var(--second-title-color)
+        
+        }
  }
