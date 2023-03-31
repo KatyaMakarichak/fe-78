@@ -1,33 +1,48 @@
-@media screen and (min-width: 480px){
+@media screen and (min-width:480px){
     .container{
-     width: 100%;
+     
+     max-width: 428px;
      padding-left: 16px;
      padding-right: 16px;
      margin-left: auto;
      margin-right: auto;
-     
+     justify-content: space-between;
     }
     .about-item {
-      font-family: 'Roboto', sans-serif;
+      /* font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 40px;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: #2E2F42; */
+margin-bottom: 72px;
+width: 100%;
     }
     .about{
-      background-color: #FFFFFF;
-      /* padding-top: 120px; */
-      text-align: center;
+      width: 100%;
       
+  }
+  .about-text{
+    margin-bottom: 72px;
+  }
+  .form-wrap{
+    display: flex;
+    flex-direction: column;
   }
   .end{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  .menu-open{
+   margin-left: 251px;
+   
+  }
+  .mobile{
+    display: none;
+}
     
     .header-list {
         display: flex;
@@ -35,7 +50,7 @@ color: #2E2F42;
         gap: 40px;
         list-style: none;
         margin-left: 76px;
-      
+      display: none;
         }
     .header-link {
         font-family: 'Roboto', sans-serif;
@@ -53,6 +68,7 @@ color: #2E2F42;
             align-items: center;
             gap: 40px;
             list-style: none;
+            display: none;
         }
           .header-mail {
         font-family: 'Roboto', sans-serif;
@@ -76,11 +92,12 @@ color: #2E2F42;
         color:var(--second-title-color)
         }
         .about-list{
-          list-style: none;
+          /* list-style: none; */
           /* display: flex; */
-          justify-content: space-between;
+          /* justify-content: space-between; */
+          margin-bottom: 96px;
       }
-      .about-text,.about-first,
+      .about-first,
        .about-second, .about-third{
     margin-bottom: 72px;
     width: 100%;
@@ -114,7 +131,7 @@ color: #2E2F42;
         display: none;
       }
       .online-btn{
-        display: none;
+       
     }
 .hero{
     padding: 210px 30px;
@@ -127,6 +144,9 @@ color: #2E2F42;
   justify-content: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.online-form{
   align-items: center;
 }
 }
