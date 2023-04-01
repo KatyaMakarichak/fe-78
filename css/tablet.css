@@ -168,12 +168,12 @@ color: #2E2F42;
      }
      .end-text{
         margin-top: 16px;
-        margin-left: 108px;
+        /* margin-left: 108px; */
         /* margin-right: 120px; */
     }
     .media-footer {
         /* margin-left: 40px; */
-        margin-bottom: 132px;
+        /* margin-bottom: 132px; */
         flex-wrap: nowrap;
     }
     .form-wrap{
@@ -222,12 +222,13 @@ color: #2E2F42;
         /* margin-left: 110px; */
     }
     .footer-container {
-        /* display: flex;
+        display: flex;
+        /* height: 565px; */
         justify-content: space-between;
-        flex-wrap: nowrap; */
+        flex-wrap: nowrap;
         gap: 24px;
         justify-content: flex-start;
-        padding-left: 108px;
-        /* row-gap: 72px; */
+        /* padding-left: 108px; */
+        row-gap: 72px;
     }
 }

@@ -82,7 +82,7 @@
     }
     .end-text{
         margin-top: 16px;
-        margin-left: 156px;
+        /* margin-left: 156px; */
         /* margin-right: 120px; */
     }
        .end-soc-list {
@@ -148,7 +148,7 @@
     }
     .mobile{
         background-color: #FFFFFF;
-        /* padding-top: 84px; */
+        padding-top: 84px;
             padding-bottom: 120px;
         display: block;}
         .mobile-list {
@@ -184,6 +184,19 @@
         letter-spacing: 0.02em;
         margin-bottom: 8px;
         color:var(--second-title-color)
+        
+        }
+        .logo-end {
+            text-decoration: none;
+            font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.1;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+        /* margin-left: 156px; */
         
         }
  }
