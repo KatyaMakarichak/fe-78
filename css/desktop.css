@@ -1,12 +1,13 @@
 @media screen and (min-width: 1158px){
     .container{
-     /* max-width: 1158px; */
+     max-width: 1158px;
      padding-left: 15px;
      padding-right: 15px;
     }
     .header-mobile{
         flex-direction: row;
         margin-left: 121px;
+        gap: 40px;
     }
     .hero {
        /* padding: 178px 292px 472px; */
@@ -23,11 +24,12 @@
         height: 40px;
         border:1px solid rgba(255, 255, 255, 0.3);
         border-radius: 4px;
-        color: #000;
+        color:#FFFFFF;
         background-color: transparent;
-        margin-left:80px ;
+        /* margin-left:80px ; */
        padding:10px ;
       outline: none;
+      margin-bottom: 119px;
       }
       .online-btn{
         min-width:165px ;
@@ -47,11 +49,12 @@
         border: none;
         transition: background-color 250ms linear, color 250ms linear ; 
        margin-left: 24px;
+       margin-bottom: 132px;
        
        }
        .logo-wrap{
         display: block;
-        margin: 0px, 40px, 0px, 0px;
+        /* margin: 0px, 40px, 0px, 0px; */
     }
     .about-after-title {
         font-family: 'Roboto', sans-serif;
@@ -71,11 +74,16 @@
         font-size: 16px;
         line-height: 24px;
         color: #FFFFFF;
-        margin-left: 80px;
+        margin-left: 8px;
         margin-top: 16px;
         margin-bottom: 16px;
         
         
+    }
+    .end-text{
+        margin-top: 16px;
+        margin-left: 156px;
+        /* margin-right: 120px; */
     }
        .end-soc-list {
         display: flex;
@@ -140,14 +148,14 @@
     }
     .mobile{
         background-color: #FFFFFF;
-        padding-top: 84px;
-            padding-bottom: 84px;
+        /* padding-top: 84px; */
+            padding-bottom: 120px;
         display: block;}
         .mobile-list {
             gap: 24px;
             display: flex;
             list-style: none;
-           
+           flex-wrap: nowrap;
             
         }
     .online-btn{
@@ -156,6 +164,8 @@
     .online-form{
         display: flex;
         flex-direction: row;
+        flex-direction: column;
+        margin-right: 159px;
     }
     .footer-container {
         display: flex;

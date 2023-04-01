@@ -747,6 +747,7 @@ line-height: 1.1;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
+margin-left: 156px;
 
 }
 
@@ -796,6 +797,7 @@ color:var(--third-title-color)
 }
 .media-footer {
     /* margin-left: 40px; */
+    margin-bottom: 132px;
 }
 .media-title {
     font-family: 'Roboto';
@@ -841,7 +843,7 @@ text-align: center;
 .logo-wrap{
     display: block;
     margin: 0px, 40px, 0px, 0px;
-    text-align: center;
+    
 }
 
 .online-btn{
@@ -858,7 +860,8 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: #E7E9FC;
-max-width: 264px;
+width: 264px;
+margin-bottom: 100px;
 /* margin-right: 120px; */
 
 }
@@ -1064,7 +1067,7 @@ color: #434455;
 }
 .end-text{
     margin-top: 16px;
-    margin-left: 80px;
+    margin-left: 108px;
     /* margin-right: 120px; */
 }
 .backdrop{

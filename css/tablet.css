@@ -92,7 +92,7 @@ text-align: left;
         .footer-container {
            flex-wrap: wrap; 
            flex-direction: row;
-          
+          display: flex;
        
         }
       
@@ -136,7 +136,7 @@ line-height: 40px;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
-text-align: left;
+/* text-align: left; */
 
       }
         .mobile{
@@ -150,7 +150,7 @@ text-align: left;
         background-color: #FFFFFF;
     }
     .customers-item {
-        width: calc((100% - 60px) / 3 );
+        width: calc((100% - 50px) / 3 );
         height: 88px;
      }
      .online-title{
@@ -160,11 +160,74 @@ text-align: left;
         font-size: 16px;
         line-height: 24px;
         color: #FFFFFF;
-        margin-left: 176px;
+        margin-left: 10px;
         margin-top: 16px;
         margin-bottom: 16px;
-        align-items: center;
+        /* align-items: center; */
         
      }
-   
- }
+     .end-text{
+        margin-top: 16px;
+        margin-left: 108px;
+        /* margin-right: 120px; */
+    }
+    .media-footer {
+        /* margin-left: 40px; */
+        margin-bottom: 132px;
+        flex-wrap: nowrap;
+    }
+    .form-wrap{
+        display: flex;
+        flex-direction: row;
+      }
+      .online-input{
+        width: 264px;
+        height: 40px;
+        border:1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        color: #000;
+        background-color: transparent;
+        /* margin-left:80px ; */
+       /* padding:10px ; */
+      outline: none;
+      margin-right: 24px;
+      margin-top: 18px;
+      
+    }
+    .logo-wrap{
+        /* display: block;
+        margin: 0px, 40px, 0px, 0px; */
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .container-costumers{
+        max-width: 582px;
+    }
+    .media-footer {
+        /* margin-left: 40px; */
+        /* margin-bottom: 132px; */
+    }
+    .end{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    width: 100%;
+        
+    }
+    .end-soc-list {
+        display: flex;
+        gap: 24px;
+        margin-top: 24px;
+        /* margin-left: 110px; */
+    }
+    .footer-container {
+        /* display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap; */
+        gap: 24px;
+        justify-content: flex-start;
+        padding-left: 108px;
+        /* row-gap: 72px; */
+    }
+}

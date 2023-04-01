@@ -125,7 +125,7 @@ color: #2E2F42;
     .customers-item {
      width: calc((100% - 30px) / 2 );
      height: 88px;
-     padding-left: 82px;
+     /* padding-left: 82px; */
   }
       .photo-link{
         display: none;
@@ -147,6 +147,7 @@ color: #2E2F42;
   align-items: center;
 }
 .online-form{
-  align-items: center;
+  /* align-items: center; */
 }
+
 }
