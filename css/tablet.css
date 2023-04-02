@@ -12,7 +12,7 @@
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  
   color: #2E2F42;
 list-style: none;
 width: calc((100% - 24px)/2);
@@ -120,7 +120,7 @@ text-align: left;
        
         
     }
-    
+
     .about-after-title {
         font-family: 'Roboto';
 font-style: normal;
