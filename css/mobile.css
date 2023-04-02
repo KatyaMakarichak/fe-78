@@ -27,7 +27,7 @@ width: 100%;
   .about-text{
     /* margin-bottom: 72px; */
   }
-  
+
   .form-wrap{
     display: flex;
     flex-direction: column;
@@ -150,7 +150,9 @@ color: #2E2F42;
 .online-form{
   /* align-items: center; */
 }
-
+.online-input{
+  margin-bottom: 16px;
+}
 
 
 
