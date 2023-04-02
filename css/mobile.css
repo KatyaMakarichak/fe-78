@@ -93,10 +93,7 @@ width: 100%;
         color:var(--second-title-color)
         }
         .about-list{
-          /* list-style: none; */
-          /* display: flex; */
-          /* justify-content: space-between; */
-          margin-bottom: 96px;
+          padding-bottom: 60px;
       }
       .about-first,
        .about-second, .about-third{
