@@ -58,7 +58,7 @@ color: #2E2F42;;
     background-color: #FFFFFF;
     padding-top: 24px;
     padding-bottom: 24px;
-    /* display: flex; */
+    display: flex;
     align-items: center;
     border-bottom: 1px solid #E7E9FC;
     list-style: none;
@@ -392,12 +392,14 @@ margin-left: 40px;
 }
 
 .hero-title {
- font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+color: #FFFFFF;
 margin-bottom: 48px;
 max-width: 696px;
 margin: 0 auto;
@@ -419,17 +421,18 @@ color:var(--first-title-color)
 
 
 .hero-btn {
-    min-width:169px ;
-    height: 56px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 24px;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF; 
+    color: #FFFFFF;
+
+    min-width:169px ;
+    height: 56px;
     cursor: pointer;   
     background-color: #4D5AE5;
     border-radius: 4px;
@@ -690,7 +693,7 @@ line-height: 1.1;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-padding-bottom: 72px;
+margin-bottom: 72px;
 color: var(--second-title-color);
 
 }

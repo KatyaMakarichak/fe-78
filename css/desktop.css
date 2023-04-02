@@ -4,13 +4,22 @@
      padding-left: 15px;
      padding-right: 15px;
     }
+    .header{
+        padding-top: 24px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #E7E9FC;
+    
+        margin: auto;
+        
+        
+    }
     .header-mobile{
         flex-direction: row;
         margin-left: 121px;
         gap: 40px;
     }
     .hero {
-       /* padding: 178px 292px 472px; */
+       padding: 180px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 
         
           url(../img/people-office1.jpg);
@@ -54,6 +63,7 @@
        }
        .logo-wrap{
         display: block;
+        margin-right: 120px;
         /* margin: 0px, 40px, 0px, 0px; */
     }
     .about-after-title {
@@ -101,11 +111,14 @@
    
     
     }
+    .media-footer{
+        margin-right: 80px;
+    }
 
     .team{
         /* background-color: #F4F4FD; */
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
     .team-item {
         width: calc((100% - 72px)/4);
@@ -136,7 +149,9 @@
         flex-wrap: nowrap;
       
     }
-    
+    .about-item{
+        width: calc((100% - 72px) / 4 ); 
+    }
     
     .about-first {
         margin-right: 24px;
