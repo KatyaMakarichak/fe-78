@@ -125,6 +125,12 @@ text-align: left;
 
 
       }
+      .form-wrap{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+       
+    }
       .about-after-title {
         font-family: 'Roboto';
 font-style: normal;
