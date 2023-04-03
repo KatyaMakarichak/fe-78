@@ -1,4 +1,4 @@
-@media screen and (min-width:480px){
+@media screen and (min-width:320px){
     .container{
      
      max-width: 428px;
@@ -7,6 +7,17 @@
      margin-left: auto;
      margin-right: auto;
      justify-content: space-between;
+    }
+    .hero-title{
+      font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #FFFFFF;
     }
     .about-item {
       /* font-family: 'Roboto', sans-serif;
@@ -17,7 +28,7 @@ line-height: 40px;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42; */
-margin-bottom: 72px;
+/* margin-bottom: 72px; */
 width: 100%;
     }
     .about{
@@ -38,8 +49,10 @@ width: 100%;
     align-items: center;
   }
   .menu-open{
-   margin-left: 251px;
-   
+   /* margin-left: 251px; */
+   right: 24px;
+   top: 24px;
+  
   }
   .mobile{
     display: none;
@@ -93,11 +106,11 @@ width: 100%;
         color:var(--second-title-color)
         }
         .about-list{
-          padding-bottom: 60px;
+          /* padding-bottom: 60px; */
       }
       .about-first,
        .about-second, .about-third{
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
     width: 100%;
 font-family: 'Roboto';
 font-style: normal;
@@ -118,6 +131,7 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
+margin-bottom: 8px;
       }
       
     .customers-item {
@@ -132,7 +146,7 @@ color: #2E2F42;
        
     }
 .hero{
-    padding: 210px 30px;
+    /* padding: 210px 30px; */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 
     
       url(../img/Dark-bg-mob.jpg);

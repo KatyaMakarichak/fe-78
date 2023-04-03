@@ -5,6 +5,9 @@
     .about{
         width: 100%;
     }
+    .header{
+        padding-bottom: 5px;
+    }
     .about-item {
         font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -16,7 +19,7 @@
   color: #2E2F42;
 list-style: none;
 width: calc((100% - 24px)/2);
-margin: 0;}
+}
   
   .about-list{
     /* list-style: none; */
@@ -28,6 +31,9 @@ margin: 0;}
 .about-first,
        .about-second, .about-third{
 width: calc((100% - 24px)/2);
+}
+.about-third{
+    
 }
 .about-text{
 text-align: left;
@@ -69,31 +75,32 @@ text-align: left;
             margin-left: 121px;
         }
           .header-mail {
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        display: block;
-        color:var(--second-title-color)
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.04em;
+            color: #434455;
         
         }
         .header-tel {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.04em;
+            color: #434455;
         margin: auto;
         display: block;
-        color:var(--second-title-color)
+        
         }
         
         
  
     .hero {
-        padding: 112px 204px 136px;
+        
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 
     
       url(../img/Dark-bg-tab.jpg);
@@ -161,7 +168,16 @@ text-align: left;
         /* align-items: center; */
         
      }
-     
+     .hero-title{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+     }
 
      .end-text{
         margin-top: 16px;
@@ -182,7 +198,7 @@ text-align: left;
         height: 40px;
         border:1px solid rgba(255, 255, 255, 0.3);
         border-radius: 4px;
-        color: #000;
+        color:#FFFFFF;
         background-color: transparent;
         /* margin-left:80px ; */
        /* padding:10px ; */

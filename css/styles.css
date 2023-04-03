@@ -321,7 +321,7 @@ color: #FFFFFF}
    
 }
 .menu-open{
-    margin-left: 140px;
+    margin-left: 100px;
     /* display: none; */
 }
 
@@ -392,14 +392,6 @@ margin-left: 40px;
 }
 
 .hero-title {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.02em;
-color: #FFFFFF;
 margin-bottom: 48px;
 max-width: 696px;
 margin: 0 auto;
@@ -407,7 +399,16 @@ align-items: center;
 margin-left: auto;
 margin-right: auto;
 margin: auto;
-color:var(--first-title-color)
+color:var(--first-title-color);
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #FFFFFF;
 
 }
 .container{
@@ -470,8 +471,8 @@ border-radius: 4px;
 
     .about{
         background-color: #FFFFFF;
-        padding-top: 120px;
-        
+        padding-top: 96px;
+        padding-bottom: 96px;
        
         
     }
@@ -510,10 +511,12 @@ border-radius: 4px;
 
 
 .about-item {
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
     box-sizing: border-box;
     /* width: 264px; */
     /* height: 112px; */
+
+   
   
     /* background: #F4F4FD; */
     justify-content: center;
@@ -521,31 +524,32 @@ border-radius: 4px;
 }
 
 .about-first {
-   margin-bottom: 72px;
+   /* margin-bottom: 72px; */
     
+   
     /* background: #F4F4FD; */
 }
 
 .about-second {
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
     flex-direction: column;
+   
     /* background: #F4F4FD; */
 }
 .about-third{
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
     /* background: #F4F4FD; */
 }
 
 
 .about-text{
-font-family: 'Roboto', sans-serif;
-font-weight: 400;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
 font-size: 16px;
-line-height: 1.5;
+line-height: 24px;
 letter-spacing: 0.02em;
-/* padding-bottom: 120px; */
-color:var(--third-title-color)
-
+color: #434455;
 }
 
     /* ---------MOBILE----------- */
