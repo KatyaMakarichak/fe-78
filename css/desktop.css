@@ -2,7 +2,7 @@
     .container{
      max-width: 1158px;
      padding-left: 15px;
-     padding-right: 0px;
+     padding-right: 15px;
     }
     .header{
         padding-top: 24px;
@@ -91,7 +91,7 @@ color: #FFFFFF;
         }
 
 
-        
+
         .about-text{
             font-family: 'Roboto', sans-serif;
 font-weight: 400;
@@ -179,7 +179,7 @@ color:var(--third-title-color);
     }
     
     .about-first {
-        margin-right: 24px;
+      
         width: 264px;
         height: 112px;
         flex-direction: column;
