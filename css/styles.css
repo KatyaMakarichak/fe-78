@@ -234,6 +234,8 @@ color:var(--second-title-color)
     padding-top: 48px;
     padding-bottom: 48px;
     left: 0;
+    display: flex; 
+    flex-direction: column; 
     
 }
 
@@ -262,10 +264,17 @@ font-size: 20px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: #434455;
-margin-bottom: 284px;
+/* margin-bottom: 284px; */
 /* margin-left: 40px; */
 list-style: none;
 
+}
+.mob-menu-bottom{
+    display: flex; 
+    flex-direction: column; 
+}
+.mobile-menu{
+    margin-top: auto;
 }
 
 .mob-menu-item:focus,
