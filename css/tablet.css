@@ -6,7 +6,7 @@
         width: 100%;
     }
     .header{
-        padding-bottom: 5px;
+        padding-bottom: 20px;
     }
     .about-item {
         font-family: 'Roboto', sans-serif;
@@ -72,14 +72,22 @@ text-align: left;
         position: relative;
         color:var(--second-title-color)
         }
-      
+      .header-item{
+        font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.04em;
+color: #434455;
+      }
         .header-mobile{
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 8px;
             list-style: none;
             flex-direction: column;
-            margin-left: 121px;
+            margin-left: 152px;
         }
           .header-mail {
             font-family: 'Roboto', sans-serif;
@@ -243,7 +251,7 @@ text-align: left;
         max-width: 565px;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: 24px;
+        /* gap: 24px; */
         justify-content: flex-start;
         flex-direction: row;
         row-gap: 72px;
