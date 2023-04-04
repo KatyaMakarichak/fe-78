@@ -241,6 +241,10 @@ text-align: left;
     width: 100%;
         
     }
+    .send-btn{
+        margin-left: auto; 
+        margin-right: auto;
+      }
     .end-soc-list {
         display: flex;
         gap: 24px;

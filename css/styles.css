@@ -1183,7 +1183,7 @@ color: #2E2F42;
 text-align: center;
 margin-bottom: 16px;
 padding-top: 72px;
-
+margin-left: 34px;
 
 }
 .modal-input:focus{
@@ -1195,6 +1195,7 @@ padding-top: 72px;
 }
 .input-wrap{
     position: relative;
+    display: block;
 }
 .input-icon{
   position: absolute;
@@ -1313,7 +1314,9 @@ margin-left: 5px;
     transition: background-color 250ms linear, color 250ms linear ; 
     margin-bottom: 24px;
     margin-top: 24px;
-    margin-left: 119px;
+    /* margin-left: 119px; */
+    margin-left: auto; 
+    margin-right: auto;
 }
 .send-btn:hover,
 .send-btn:focus {

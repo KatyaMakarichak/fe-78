@@ -16,9 +16,16 @@
    
    }
    .modal-form{
-    
+    width: 100%;
    }
-
+   .modal{
+    padding-right: 34px;
+    max-width: 320px;
+  }
+.send-btn{
+  margin-left: auto; 
+  margin-right: auto;
+}
     .hero-title{
       font-family: 'Roboto', sans-serif;
     font-style: normal;
