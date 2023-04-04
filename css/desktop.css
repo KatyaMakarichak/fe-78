@@ -3,6 +3,7 @@
      max-width: 1158px;
      padding-left: 15px;
      padding-right: 15px;
+    width: auto;
     }
     .header{
         padding-top: 24px;
@@ -13,7 +14,7 @@
         
         
     }
-    
+
     .hero-title{
         font-family: 'Roboto',sans-serif;
 font-style: normal;
@@ -202,6 +203,9 @@ color:var(--third-title-color);
     .online-btn{
         display: flex;
     }
+    .img{
+        display: block;
+    }
     .online-form{
         display: flex;
         flex-direction: row;
@@ -214,6 +218,7 @@ color:var(--third-title-color);
         flex-wrap: nowrap;
         align-items: flex-start;
         justify-content: space-between;
+        gap: 80px;
        
     }
     .form-wrap{
