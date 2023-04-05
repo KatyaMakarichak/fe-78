@@ -241,6 +241,10 @@ text-align: left;
     width: 100%;
         
     }
+    .about-text{
+        padding-bottom: 0;
+      }
+    
     .send-btn{
         margin-left: auto; 
         margin-right: auto;

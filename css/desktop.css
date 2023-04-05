@@ -3,16 +3,26 @@
      max-width: 1158px;
      padding-left: 15px;
      padding-right: 15px;
-    width: auto;
+   width: none;
     }
     .header{
         padding-top: 24px;
-        padding-bottom: 24px;
+        padding-bottom: 8px;
         border-bottom: 1px solid #E7E9FC;
     
         margin: auto;
         
         
+    }
+    .header-item{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+
     }
 
     .hero-title{
@@ -28,7 +38,7 @@ color: #FFFFFF;
     }
     .header-mobile{
         flex-direction: row;
-        margin-left: 121px;
+        margin-left: 332px;
         gap: 40px;
     }
     .hero {

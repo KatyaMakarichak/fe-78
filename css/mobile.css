@@ -9,6 +9,10 @@
      width:  100%;
      
     }
+    .mob-menu-bottom{
+      display: flex;
+      flex-direction: column;
+    }
    .modal-input{
     width: 100%;
    }
@@ -19,7 +23,7 @@
     width: 100%;
    }
    .modal{
-    padding-right: 34px;
+    padding-right: 45px;
     max-width: 320px;
   }
 .send-btn{
@@ -46,15 +50,16 @@ line-height: 40px;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42; */
-/* margin-bottom: 72px; */
+
 width: 100%;
     }
     .about{
       width: 100%;
       
   }
+  
   .about-text{
-    margin-bottom: 72px;
+    padding-bottom: 72px;
   }
 
   .form-wrap{
