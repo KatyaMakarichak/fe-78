@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px){
     .container{
      max-width: 768px;
+    
     }
     .about{
         width: 100%;
@@ -244,7 +245,7 @@ text-align: left;
     .about-text{
         padding-bottom: 0;
       }
-      
+
     
     .send-btn{
         margin-left: auto; 

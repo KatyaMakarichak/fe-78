@@ -7,14 +7,14 @@
     }
     .header{
         padding-top: 24px;
-        padding-bottom: 8px;
+        padding-bottom: 24px;
         border-bottom: 1px solid #E7E9FC;
     
         margin: auto;
         
         
     }
-    
+
     .header-item{
         font-family: 'Roboto';
 font-style: normal;
@@ -39,7 +39,7 @@ color: #FFFFFF;
     }
     .header-mobile{
         flex-direction: row;
-        margin-left: 332px;
+        margin-left: 300px;
         gap: 40px;
     }
     .hero {
