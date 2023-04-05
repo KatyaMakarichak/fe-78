@@ -14,7 +14,7 @@
         
         
     }
-    
+
 
     .header-item{
         font-family: 'Roboto';
@@ -230,7 +230,7 @@ color:var(--third-title-color);
     }
     .send-btn{
         margin-left: auto; 
-        margin-right: auto;
+        margin-right: 29px;
       }
     .footer-container {
         display: flex;

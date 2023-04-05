@@ -9,7 +9,7 @@
      /* width:  100%; */
      
     }
-    
+
     .mob-menu-bottom{
       display: flex;
       flex-direction: column;
@@ -158,6 +158,7 @@ text-align: left;
         flex-direction: column;
        
     }
+    
       .about-after-title {
         font-family: 'Roboto';
 font-style: normal;
